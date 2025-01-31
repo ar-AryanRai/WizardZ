@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.page1,
+.page2{
+  width: 100%;
+  height: 100%;
+}
+
+nav {
+  padding: 0 80px;
+}
+
+/* .star{
+  rotate: -45deg;
+} */
+
+.options button {
+  padding: 10px 40px;
+}
+
+.footer {
+  padding: 0 60px;
+}
+
+.center {
+  padding: 60px 60px;
+}
+
+.center .left {
+  padding-left: 4%;
+}
+
+.center .top {
+  margin-bottom: 40px;
+}
+
+.center .middle {
+  margin-bottom: 30px;
+}
+
+.bottom button {
+  padding: 10px 40px;
+  background-color: black;
+  color: white;
+}
+
+button,
+nav h4,
+.services .odd .left p,
+.services .even .left p {
+  cursor: pointer;
+}
+
+.one {
+  margin-left: 50px;
+}
+
+.fa-arrow-right {
+  transform: rotate(-45deg);
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  padding: 5px;
+  justify-content: center;
+}
+
+.service-desc {
+  margin: 40px 100px 30px 100px;
+}
+
+.service-desc h2 {
+  padding: 5px 10px;
+}
+
+.service-desc p {
+  font-size: 16px;
+}
+
+.services {
+  padding: 40px 100px 40px 100px;
+}
+
+.services .odd {
+  /* background-color: orange; */
+  padding: 35px 40px;
+  width: 46%;
+  height: 55%;
+  border-radius: 60px;
+  border: 3px black solid;
+  box-shadow: 0 10px 0 black;
+  display: flex;
+  justify-items: space-between;
+}
+
+.services .odd .left,
+.services .even .left {
+  padding: 15px 0;
+}
+
+.services .odd .left h3,
+.services .even .left h3 {
+  line-height: 1.4;
+  padding: 4px 10px;
+  border-radius: 20px;
+}
+
+.services .even .left h3{
+  background-color: white;
+  color: black;
+}
+
+.services .odd .left h3{
+  background-color: #BCD85F;
+  color: black;
+}
+
+.services .odd .left p i,
+.services .even .left p i{
+  margin-right: 10px
+} 
+
+.services .even .left p i{
+  background-color: white;
+  color: black;
+} 
+
+.services .even {
+  background-color: #1c1c1c;
+  color: white;
+  padding: 35px 40px;
+  width: 46%;
+  height: 55%;
+  border-radius: 60px;
+  border: 3px black solid;
+  box-shadow: 0 10px 0 black;
+  display: flex;
+  justify-items: space-between;
+}
