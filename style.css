@@ -11,13 +11,16 @@ body {
 }
 
 .page1,
-.page2{
+.page2 {
   width: 100%;
   height: 100%;
 }
 
 nav {
   padding: 0 80px;
+  z-index: 1000;
+  background-color: white(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
 }
 
 /* .star{
@@ -33,7 +36,7 @@ nav {
 }
 
 .center {
-  padding: 60px 60px;
+  padding: 50px 60px;
 }
 
 .center .left {
@@ -80,6 +83,7 @@ nav h4,
 
 .service-desc h2 {
   padding: 5px 10px;
+  margin-right: 30px;
 }
 
 .service-desc p {
@@ -87,7 +91,7 @@ nav h4,
 }
 
 .services {
-  padding: 40px 100px 40px 100px;
+  padding: 40px 100px;
 }
 
 .services .odd {
@@ -114,25 +118,25 @@ nav h4,
   border-radius: 20px;
 }
 
-.services .even .left h3{
+.services .even .left h3 {
   background-color: white;
   color: black;
 }
 
-.services .odd .left h3{
-  background-color: #BCD85F;
+.services .odd .left h3 {
+  background-color: #bcd85f;
   color: black;
 }
 
 .services .odd .left p i,
-.services .even .left p i{
-  margin-right: 10px
-} 
+.services .even .left p i {
+  margin-right: 10px;
+}
 
-.services .even .left p i{
+.services .even .left p i {
   background-color: white;
   color: black;
-} 
+}
 
 .services .even {
   background-color: #1c1c1c;
@@ -145,4 +149,131 @@ nav h4,
   box-shadow: 0 10px 0 black;
   display: flex;
   justify-items: space-between;
+}
+
+@media (max-width: 431px) {
+  nav {
+    opacity: 0;
+  }
+
+  .center {
+    padding-top: 10px;
+    padding-left: 0px;
+    flex-direction: column;
+  }
+
+  .center .right-t img {
+    display: none;
+  }
+
+  .top {
+    font-size: 40px;
+    padding-left: 16px;
+    width: 78%;
+  }
+
+  .middle {
+    display: flex;
+    width: 100%;
+    gap: 10%;
+  }
+
+  .middle div {
+    width: 43%;
+    text-align: justify;
+  }
+
+  .footer {
+    padding: 0 60px;
+    height: 10%;
+  }
+
+  .footer img {
+    width: 20%;
+    height: 20%;
+  }
+
+  .footer .one {
+    margin: 0;
+  }
+
+  .footer .length {
+    height: 30%;
+  }
+
+  .page2 {
+    padding-top: 30px;
+  }
+
+  .page2 .service-desc {
+    margin: 0 0 20px 0;
+    padding: 0 20px;
+    justify-content: center;
+  }
+
+  .page2 .services {
+    padding: 0 10px;
+  }
+
+  .page2 .services div {
+    width: 100%;
+    padding: 10px 20px;
+  }
+
+  .page2 .services div .learn {
+    margin-top: 10px;
+  }
+
+  .page2 .services .service1 .right {
+    width: 100%;
+    padding: 0;
+  }
+
+  .page2 .services .service2 .right img {
+    display: block;
+  }
+
+  .page2 .services .service3 {
+    background-color: white;
+  }
+
+  .page2 .services .service4 {
+    background-color: #1c1c1c;
+  }
+
+  .services .service3 .left h3 {
+    background-color: #bcd85f;
+    color: black;
+  }
+
+  .services .service3 .left p {
+    color: black;
+  }
+
+  .services .service3 .left p i {
+    background-color: black;
+    color: white;
+  }
+
+  .services .service4 .left h3 {
+    background-color: white;
+    color: black;
+  }
+
+  .services .service4 .left p {
+    color: white;
+  }
+
+  .services .service4 .left p i {
+    background-color: white;
+    color: black;
+  }
+
+  .nav2 {
+    position: absolute;
+    top: 0;
+    z-index: 1000;
+    background-color: white(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+  }
 }
