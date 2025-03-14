@@ -47,7 +47,7 @@ function page1() {
     duration: 0.8,
   });
   tl.from(
-    ".right",
+    ".right-t",
     {
       opacity: 0,
       x: 200,
@@ -100,7 +100,7 @@ tl1.from(
   {
     opacity: 0,
     x: -100,
-    duration: 1.5,
+    duration: 5,
   },
   "ani1"
 );
@@ -110,7 +110,7 @@ tl1.from(
   {
     opacity: 0,
     x: 100,
-    duration: 1.5,
+    duration: 5,
   },
   "ani1"
 );
@@ -120,7 +120,7 @@ tl1.from(
   {
     opacity: 0,
     x: -100,
-    duration: 1.5,
+    duration: 5,
   },
   "ani2"
 );
@@ -130,7 +130,30 @@ tl1.from(
   {
     opacity: 0,
     x: 100,
-    duration: 1.5,
+    duration: 5,
   },
   "ani2"
 );
+
+const open = document.querySelector(".nav2 .fa-bars");
+const close = document.querySelector(".nav2 .fa-xmark");
+
+open.addEventListener("click", () => {
+  gsap.to(".options-list", {
+    x: 0,
+    duration: 0.5,
+    onStart: () => {
+      document.querySelector(".options-list").style.display = "flex";
+    },
+  });
+});
+
+close.addEventListener("click", () => {
+  gsap.to(".options-list", {
+    x: 200,
+    duration: 0.5,
+    onComplete: () => {
+      document.querySelector(".options-list").style.display = "none";
+    },
+  });
+});
