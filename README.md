@@ -48,10 +48,12 @@ This project was created to:
 ## 🚀 Getting Started
 
 - To run this project locally:
-
 ```bash
 git clone https://github.com/ar-AryanRai/WizardZ.git
 cd WizardZ
 ```
 
-- #### Then open index.html in your browser using live server extension
+- To start/run the project
+```bash
+#### Then open index.html in your browser using live server extension
+```
