@@ -54,4 +54,4 @@ git clone https://github.com/ar-AryanRai/WizardZ.git
 cd WizardZ
 ```
 
-- ### Then open index.html in your browser using live server extension
+- #### Then open index.html in your browser using live server extension
