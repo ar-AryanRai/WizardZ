@@ -2,7 +2,7 @@
 
 Welcome to **WizardZ** – a visually captivating animated website created to showcase modern frontend design combined with rich animations.
 
-🌐 **Live Demo**: [ar-aryanrai.github.io/WizardZ](https://ar-aryanrai.github.io/WizardZ/)
+🌐 **Live Demo**: [Click here to visit WizardZ](https://ar-aryanrai.github.io/WizardZ/)
 
 ---
 
